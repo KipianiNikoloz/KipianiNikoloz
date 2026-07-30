@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Nikoloz Kipiani — AI Engineer</title>
+  <desc id="desc">A dark signal ledger for intelligent systems and financial infrastructure, connecting Madrid and Tbilisi.</desc>
+  <defs>
+    <style>
+      .display { font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif; font-weight: 800; letter-spacing: -3px; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; letter-spacing: 1.4px; }
+      .paper { fill: #ece9df; }
+      .cobalt { fill: #657dff; }
+      .muted { fill: #98999f; }
+      .rule { stroke: #657dff; stroke-opacity: .28; }
+    </style>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="358" /></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" fill="#08090c" />
+
+  <g class="rule" fill="none">
+    <path d="M48 1v358M324 1v358M600 1v358M876 1v358M1152 1v358" />
+    <path d="M1 48h1198M1 312h1198" />
+    <rect x=".5" y=".5" width="1199" height="359" />
+  </g>
+
+  <g class="mono" font-size="13">
+    <text x="48" y="31" class="cobalt">NK/01</text>
+    <text x="600" y="31" class="muted">SIGNAL → SYSTEM</text>
+    <text x="1152" y="31" text-anchor="end" class="paper">MADRID — TBILISI</text>
+  </g>
+
+  <g clip-path="url(#frame)">
+    <g fill="none" stroke="#657dff" stroke-width="1.25" opacity=".72" transform="translate(1010 180)">
+      <ellipse rx="172" ry="54" />
+      <ellipse rx="172" ry="54" transform="rotate(52)" />
+      <ellipse rx="172" ry="54" transform="rotate(-52)" />
+      <path d="M-190 0h380M0-190v380" opacity=".45" />
+    </g>
+    <circle cx="1075" cy="112" r="5" fill="#d7ff3f" />
+    <circle cx="1075" cy="112" r="13" fill="none" stroke="#d7ff3f" opacity=".22" />
+    <g fill="#657dff" opacity=".8">
+      <circle cx="920" cy="221" r="2" /><circle cx="950" cy="91" r="2" />
+      <circle cx="1116" cy="232" r="2" /><circle cx="1141" cy="154" r="2" />
+    </g>
+  </g>
+
+  <text x="48" y="145" class="display paper" font-size="104">NIKOLOZ</text>
+  <text x="48" y="248" class="display cobalt" font-size="112">AI ENGINEER</text>
+  <rect x="49" y="272" width="38" height="4" fill="#d7ff3f" />
+  <text x="104" y="279" class="mono paper" font-size="16">INTELLIGENT SYSTEMS / FINANCIAL INFRASTRUCTURE</text>
+
+  <g class="mono" font-size="12">
+    <text x="48" y="338" class="cobalt">STATUS</text>
+    <text x="116" y="338" class="paper">BUILDING</text>
+    <text x="600" y="338" class="muted">PYTHON · TYPESCRIPT · AI / DATA</text>
+    <text x="1152" y="338" text-anchor="end" class="muted">2026 / ACTIVE</text>
+  </g>
+</svg>
